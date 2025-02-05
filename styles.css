@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa; /* Softer light background */
+}
+
+header {
+    background: linear-gradient(135deg, #545287, #6a7c9b); /* Subtle gradient */
+    color: #ffe100;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Deeper shadow for depth */
+    border-bottom: 5px solid #ffe100; /* Accent line */
+    animation: fadeIn 1s ease-out;
+}
+
+header h1 {
+    font-family: 'Sacramento', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Elegant script font */
+    font-size: 48px;
+    letter-spacing: 2px;
+    animation: slideIn 1s ease-out; /* Slide-in animation */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase; /* Bold, uppercase links */
+    letter-spacing: 1px;
+    transition: color 0.3s ease, transform 0.3s ease, border-bottom 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffe100; /* Highlight on hover */
+    transform: translateY(-5px); /* Slight lift effect */
+    border-bottom: 2px solid #ffe100; /* Add bottom border for hover effect */
+}
+
+section {
+    padding: 40px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 15px;
+    max-width: 1200px; /* Increased max-width for better design */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+}
+
+.project {
+    background: #e6e6e6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px; /* More space between projects */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Deep shadow on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #281d66;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: background 0.3s ease;
+}
+
+footer:hover {
+    background: #0d2032; /* Change background color on hover */
+}
+
+footer a {
+    color: #16042e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration:maroon;
+}
