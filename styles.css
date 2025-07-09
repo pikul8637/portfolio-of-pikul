@@ -58,6 +58,20 @@ section {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
 }
 
+h2 {
+    font-size: 32px;
+    font-weight: 700; /* Bold */
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600; /* Semi-bold */
+    margin-bottom: 15px;
+    color: #444;
+}
+
 .project {
     background: #e6e6e6;
     padding: 20px;
