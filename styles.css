@@ -1,105 +1,122 @@
+/* General Body Styling */
 body {
-    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fafafa; /* Softer light background */
+    background: linear-gradient(120deg, #f9fafc, #e8f0fe);
+    color: #333;
 }
 
+/* Header Styling */
 header {
-    background: linear-gradient(135deg, #545287, #6a7c9b); /* Subtle gradient */
-    color: #ffe100;
-    padding: 40px 20px;
+    background: linear-gradient(135deg, #4b6cb7, #182848);
+    color: #fff;
     text-align: center;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Deeper shadow for depth */
-    border-bottom: 5px solid #ffe100; /* Accent line */
-    animation: fadeIn 1s ease-out;
+    padding: 50px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
-    font-family: 'Sacramento', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Elegant script font */
-    font-size: 48px;
-    letter-spacing: 2px;
-    animation: slideIn 1s ease-out; /* Slide-in animation */
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
+header p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Navigation Styling */
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
+    margin-top: 20px;
 }
 
 nav ul li {
     display: inline-block;
-    margin: 0 25px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
-    font-size: 18px;
     text-decoration: none;
-    padding: 10px;
-    text-transform: uppercase; /* Bold, uppercase links */
+    text-transform: uppercase;
     letter-spacing: 1px;
-    transition: color 0.3s ease, transform 0.3s ease, border-bottom 0.3s ease;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ffe100; /* Highlight on hover */
-    transform: translateY(-5px); /* Slight lift effect */
-    border-bottom: 2px solid #ffe100; /* Add bottom border for hover effect */
+    background: #ffe100;
+    color: #000;
 }
 
+/* Sections */
 section {
-    padding: 40px;
-    margin: 30px auto;
     background: #fff;
+    padding: 50px 30px;
+    margin: 30px auto;
+    max-width: 1100px;
     border-radius: 15px;
-    max-width: 1200px; /* Increased max-width for better design */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
+/* Headings Styling */
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #182848;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ffe100;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Project Card Styling */
 .project {
-    background: #e6e6e6;
+    background: #f1f3f6;
     padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 30px; /* More space between projects */
+    margin-bottom: 20px;
+    border-left: 5px solid #4b6cb7;
+    border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project:hover {
-    transform: translateY(-10px); /* Lift effect on hover */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Deep shadow on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* Links Styling */
+a {
+    color: #4b6cb7;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #182848;
+}
+
+/* Footer Styling */
 footer {
+    background: #182848;
+    color: #fff;
     text-align: center;
     padding: 20px;
-    background: #281d66;
-    color: #fff;
     margin-top: 40px;
     font-size: 16px;
-    letter-spacing: 1px;
-    transition: background 0.3s ease;
 }
 
-footer:hover {
-    background: #0d2032; /* Change background color on hover */
-}
-
-footer a {
-    color: #16042e;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-footer a:hover {
-    text-decoration:maroon;
-}
-
-h2 {
-    font-weight: bold;
-    font-size: 28px;
-    color: #333; /* Dark gray for better readability */
-    margin-bottom: 15px;
-}
 
