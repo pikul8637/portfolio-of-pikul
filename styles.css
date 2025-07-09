@@ -58,13 +58,6 @@ section {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
 }
 
-h2 {
-    font-size: 32px;
-    font-weight: 700; /* Bold */
-    margin-bottom: 20px;
-    color: #333;
-}
-
 .project {
     background: #e6e6e6;
     padding: 20px;
@@ -102,3 +95,11 @@ footer a {
 footer a:hover {
     text-decoration:maroon;
 }
+
+h2 {
+    font-weight: bold;
+    font-size: 28px;
+    color: #333; /* Dark gray for better readability */
+    margin-bottom: 15px;
+}
+
