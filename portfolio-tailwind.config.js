@@ -14,3 +14,8 @@ document.querySelectorAll('nav a').forEach(link => {
         }
     });
 });
+// Function to show Thank You message
+function showThankYou() {
+    alert("Thank you for viewing my portfolio page!");
+}
+
